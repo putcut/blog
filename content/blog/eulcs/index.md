@@ -1,0 +1,16 @@
+---
+title: EULCS
+date: "2016-01-12T00:00:00.000Z"
+---
+
+めっちゃたのしみ。
+
+残念ながらGambitGamingはLCSのスポットを売ってLoLチームは一旦解散しました。ただ、これで終わりではなくまたゼロから始めるみたいです。Gambit自体も新しいことにチャレンジするようで最近CS:GOのチームを発表していました。CSシーンにはうといんですけど余裕があれば応援したいです。そしてLoLチームの再起を待ちたいと思います。昔のメンバーが再び集まることはないと思いますが、初めて好きになったチームなのでこれからも応援していきたいです。
+
+EULCSについてですが、Gambitが解散してメンバーがバラバラになったのでどこを応援しようか迷ってます。DiamondはUoLへ、BetsyとGosuPepperはROCCATへ、CabochardはVitalityでFORG1VENはH2k、P1noyはCWに行くようです。とりあえずGambit元スタメン達の就職が決まってホッとしてます。 
+この中ならROCCATかなぁと思ってます。一番はBetsyの成長を見守りたいからです。あとはAirwaksと元RenegadeのSafirにも注目したいです。[Airwaks君のLeeSin](https://youtu.be/RUDz-_0uQls)は個人的に1番綺麗だと思う。DiamondとCabochardの活躍も追いかけたい。  
+EULCS全体については正直どうなるかわからんからすげー楽しみ。FnaticはBigプレイヤーは健在だけどYellowStar失ったのは大きいと思う。チーム力で優れていそうなのはメンバーのあまり変わってないOriginとあとはH2kかな。
+
+NALCSについてだけど、去年はNAの試合はあんまり見てなかったんだけど今年は見るかも。とりあえず応援するのはRenegadeかな。なんといってもAlex IchがいるしFreezeも加入したのでとっても楽しみ。HuniとReignoverのコンビとFroggenとかもNAに来たし今年はNAも熱そうだ。ブログ書く前にそういえばSELFIE君なにしてんだろって思ってたけどさっき調べたらEchoFoxのSubにいてびっくりした。さっさとFroggenからスタメン奪って欲しい。
+
+LJLも始まるし楽しみだ。プレイする方もそうだけど今年も見るe-sportsを楽しみたい。

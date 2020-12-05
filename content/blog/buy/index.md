@@ -1,0 +1,53 @@
+---
+title: やろうがやるまいが買い！
+date: "2017-07-01T00:00:00.000Z"
+---
+
+### 2017年Steamサマーセールオススメ！
+
+今年もSteamのサマーセールが始まりました。Steamを最近始めた君も、まだまだの君もこれを買えばポケモンマスターだ！
+
+1. DARK SOULS™ III  
+私は今ダークソウル1を攻略中です。（2年目）
+
+2. Fallout 4  
+人は過ちを繰り返す。
+
+3. NieR:Automata  
+楽しそう。
+
+4. The Witcher 3: Wild Hunt  
+Game of the Year.
+
+5. Grand Theft Auto V  
+中学生が好きそう。
+
+6. Sid Meier's Civilization® V  
+たった745円で君の人生が変わる。
+
+7. Euro Truck Simulator 2  
+ハンコンと一緒にどうぞ。
+
+8. Cities: Skylines  
+市長ではなく神になる。
+
+9. Stardew Valley  
+おもれーらしい。
+
+10. The Elder Scrolls V: Skyrim  
+スクリム。
+
+11. FINAL FANTASY X/X-2 HD Remaster  
+世界一ピュアなキス。
+
+12. Deus Ex: Mankind Divided
+
+13. Watch_Dogs  
+買ったよ。
+
+14. Nobunaga's Ambition: Souzou with Power Up Kit (Japanese version)  
+久しぶりの野望だ。
+
+### ゲームの海へ
+
+別に何を買ってもいいんだ。君の好きなものを買うといいし、探してみるといい、君のお気に入りを。
