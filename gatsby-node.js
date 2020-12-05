@@ -111,9 +111,5 @@ exports.createSchemaCustomization = ({ actions }) => {
     type Fields {
       slug: String
     }
-
-    type Site {
-      host: String
-    }
   `)
 }
