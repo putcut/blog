@@ -319,6 +319,15 @@ a:focus {
   margin: var(--spacing-0);
 }
 
+.blog-post-header ul {
+  display: flex;
+  list-style: none;
+}
+
+.blog-post-header ul li:not(:last-child) {
+  margin-right: var(--spacing-4);
+}
+
 .gatsby-highlight {
   margin-bottom: var(--spacing-8);
 }

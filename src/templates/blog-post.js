@@ -4,10 +4,15 @@ import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faTwitter } from "@fortawesome/free-brands-svg-icons"
+import { TwitterShareButton } from "react-share"
+
 const BlogPostTemplate = ({ data, location }) => {
   const post = data.markdownRemark
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const { previous, next } = data
+  const pageUrl = `https://${data.site.host}${data.markdownRemark.fields.slug}` 
 
   return (
     <Layout location={location} title={siteTitle}>
@@ -20,9 +25,15 @@ const BlogPostTemplate = ({ data, location }) => {
         itemScope
         itemType="http://schema.org/Article"
       >
-        <header>
+        <header className="blog-post-header">
           <h1 itemProp="headline">{post.frontmatter.title}</h1>
-          <time dateTime={post.frontmatter.date}><p>{post.frontmatter.formatDate}</p></time>
+          <ul>
+            <li><time dateTime={post.frontmatter.date}><span>{post.frontmatter.formatDate}</span></time></li>
+            <li>
+              <TwitterShareButton title={post.frontmatter.title} url={pageUrl} style={{ outline: "none" }}>
+                <FontAwesomeIcon icon={faTwitter} /><span className="sr-only">Twitter</span>
+              </TwitterShareButton></li>
+          </ul>
         </header>
         <section
           dangerouslySetInnerHTML={{ __html: post.html }}
@@ -69,6 +80,7 @@ export const pageQuery = graphql`
     $nextPostId: String
   ) {
     site {
+      host
       siteMetadata {
         title
       }
@@ -82,6 +94,9 @@ export const pageQuery = graphql`
         date
         title
         description
+      }
+      fields {
+        slug
       }
     }
     previous: markdownRemark(id: { eq: $previousPostId }) {
