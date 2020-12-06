@@ -5,7 +5,7 @@ module.exports = {
       name: `putcut`
     },
     description: `putcutのブログ`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
+    siteUrl: `https://blog.putcut.net`,
     social: {
       twitter: `putcutt`,
     },

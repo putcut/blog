@@ -12,7 +12,7 @@ const BlogPostTemplate = ({ data, location }) => {
   const post = data.markdownRemark
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const { previous, next } = data
-  const pageUrl = `https://blog.putcut.net${data.markdownRemark.fields.slug}` 
+  const pageUrl = `${data.site.siteMetadata.siteUrl}${location.pathname}` 
 
   return (
     <Layout location={location} title={siteTitle}>
@@ -82,6 +82,7 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         title
+        siteUrl
       }
     }
     markdownRemark(id: { eq: $id }) {
