@@ -332,6 +332,14 @@ a:focus {
   margin-bottom: var(--spacing-8);
 }
 
+.footnotes {
+  font-size: small;
+}
+
+.footnotes p {
+  display: inline;
+}
+
 /* Media queries */
 
 @media (max-width: 42rem) {
