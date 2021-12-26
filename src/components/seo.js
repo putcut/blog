@@ -18,6 +18,7 @@ const SEO = ({ description, lang, meta, title }) => {
           siteMetadata {
             title
             description
+            siteUrl
             social {
               twitter
             }
@@ -29,6 +30,7 @@ const SEO = ({ description, lang, meta, title }) => {
 
   const metaDescription = description || site.siteMetadata.description
   const defaultTitle = site.siteMetadata?.title
+  const siteUrl = site.siteMetadata.siteUrl
 
   return (
     <Helmet
@@ -56,7 +58,7 @@ const SEO = ({ description, lang, meta, title }) => {
         },
         {
           property: `og:image`,
-          content: '/twitter_ogp.jpg'
+          content: `${siteUrl}/twitter_ogp.jpg`
         },
         {
           name: `twitter:card`,
