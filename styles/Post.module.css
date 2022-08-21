@@ -1,0 +1,47 @@
+.post {
+  @apply mt-8 space-y-4
+}
+
+.post h1 {
+  @apply text-4xl font-bold pt-4
+}
+
+.post h2 {
+  @apply text-3xl font-bold pt-4
+}
+
+.post h3 {
+  @apply text-2xl font-semibold pt-4
+}
+
+.post h4 {
+  @apply text-xl font-semibold pt-4
+}
+
+.post h5 {
+  @apply text-lg font-medium pt-4
+}
+
+.post h6 {
+  @apply text-base font-medium pt-4
+}
+
+.post blockquote {
+  color: #4f5969;
+  padding-left: 0.75rem;
+  border-left: 0.25rem solid #005b99;
+  box-sizing: border-box;
+  font-style: italic;
+}
+
+/* Footnotes 文字を消す */
+.post section h2 {
+  border-bottom-width: 1px;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.post section ol {
+  @apply pt-1 text-sm
+}
