@@ -1,1 +1,0 @@
-https://blog.putcut.net/
