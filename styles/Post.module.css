@@ -26,6 +26,10 @@
   @apply text-base font-medium pt-4
 }
 
+.post ul {
+  @apply list-disc list-inside
+}
+
 .post blockquote {
   color: #4f5969;
   padding-left: 0.75rem;
