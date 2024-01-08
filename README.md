@@ -1,3 +1,2 @@
-```bash
-npm run dev
-```
+# blog
+https://blog.putcut.net/
