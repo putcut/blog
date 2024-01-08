@@ -1,0 +1,33 @@
+---
+import { getCollection } from 'astro:content';
+import BaseHead from '../components/BaseHead.astro'
+import BaseLayout from '../layouts/BaseLayout.astro'
+import FormattedDate from '../components/FormattedDate.astro';
+
+export async function getStaticPaths() {
+	const posts = await getCollection('post');
+	return posts.map((post) => ({
+		params: { slug: post.slug },
+		props: post,
+	}));
+}
+
+const post = Astro.props;
+const { Content } = await post.render();
+---
+
+<!doctype html>
+<html lang="ja">
+	<head>
+		<BaseHead title={post.data.title} />
+	</head>
+	<BaseLayout>
+		<section class="flex flex-col prose">
+			<p class="text-small">
+				<FormattedDate date={post.data.pubDate} />
+			</p>
+			<h1 class="text-4xl">{post.data.title}</h1>
+			<Content />
+		</section>
+	</BaseLayout>
+</html>

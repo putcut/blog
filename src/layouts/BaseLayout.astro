@@ -1,0 +1,19 @@
+---
+import { SITE_TITLE } from "../consts";
+
+const today = new Date();
+---
+
+<body>
+    <div class="min-h-screen flex flex-col md:w-1/2 mx-auto p-8">
+        <header>
+            <div class="text-4xl"><a href="/">{SITE_TITLE}</a></div>
+        </header>
+        <main class="py-8 grow">
+            <slot />
+        </main>
+        <footer class="text-center p-2">
+            &copy; 2018 - {today.getFullYear()} <a href="https://putcut.net">putcut.net</a>
+        </footer>
+    </div>
+</body>
