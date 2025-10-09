@@ -1,7 +1,5 @@
 ---
 import { SITE_TITLE } from "../consts";
-
-const today = new Date();
 ---
 
 <body>
@@ -13,7 +11,7 @@ const today = new Date();
             <slot />
         </main>
         <footer class="text-center p-2">
-            &copy; 2018 - {today.getFullYear()} <a href="https://putcut.net">putcut.net</a>
+            &copy; <a href="https://putcut.net">putcut.net</a>
         </footer>
     </div>
 </body>
