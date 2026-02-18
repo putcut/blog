@@ -6,6 +6,6 @@ import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://blog.putcut.net',
+  site: 'https://blog.putcut.dev',
   integrations: [mdx(), sitemap(), tailwind()]
 });

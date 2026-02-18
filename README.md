@@ -1,2 +1,2 @@
 # blog
-https://blog.putcut.net/
+https://blog.putcut.dev/
